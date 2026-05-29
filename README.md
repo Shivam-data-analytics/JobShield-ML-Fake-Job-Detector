@@ -176,7 +176,7 @@ df = pd.read_csv('fake_job_postings.csv')
 
 ## 📷 Dataset Preview
 
-![Dataset Summary](images/Image3.png)
+![Dataset Summary](images/Image4.png)
 
 Displayed the first few rows of the dataset using:
 
@@ -188,7 +188,7 @@ df.head()
 
 ## 📷 Exploratory Data Analysis
 
-![EDA](images/Image4.png)
+![EDA](images/Image3.png)
 
 Used:
 ```python
