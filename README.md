@@ -230,7 +230,7 @@ This indicates:
 
 ## 📷 Employment Type Distribution
 
-![Employment Distribution](images/Image7.png)
+![Employment Distribution](images/Image5.png)
 
 ### Observation:
 - Full-time jobs dominate the dataset
