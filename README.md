@@ -390,7 +390,7 @@ train_test_split(test_size=0.2)
 ## 📷 Logistic Regression Training
 
 ![Logistic Regression](images/Image14.png)
-
+![Logistic Regression](images/CM_LR_OUTPUT.png)
 ### Purpose:
 Binary classification model for fraud prediction.
 
@@ -406,6 +406,7 @@ Binary classification model for fraud prediction.
 ## 📷 Naive Bayes Training
 
 ![Naive Bayes](images/Image16.png)
+![Naive Bayes](images/CM_NB_OUTPUT.png)
 
 ### Purpose:
 Probabilistic NLP classification algorithm.
@@ -421,6 +422,7 @@ Probabilistic NLP classification algorithm.
 ## 📷 Random Forest Training
 
 ![Random Forest](images/Image18.png)
+![Random Forest](images/CM_RF_OUTPUT.png)
 
 ### Purpose:
 Ensemble learning model using decision trees.
