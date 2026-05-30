@@ -164,7 +164,7 @@ Libraries used:
 
 ## 📷 Loading Dataset
 
-![Loading Dataset](images/Image2.png)
+![Loading Dataset](images/Image1.png)
 
 Dataset loaded using Pandas.
 
@@ -176,7 +176,7 @@ df = pd.read_csv('fake_job_postings.csv')
 
 ## 📷 Dataset Preview
 
-![Dataset Summary](images/Image4.png)
+![Dataset Summary](images/Image1.png)
 
 Displayed the first few rows of the dataset using:
 
@@ -188,7 +188,7 @@ df.head()
 
 ## 📷 Exploratory Data Analysis
 
-![EDA](images/Image3.png)
+![EDA](images/Image2.png)
 
 Used:
 ```python
@@ -205,7 +205,7 @@ Key observations:
 
 ## 📷 Dataset Shape & Columns
 
-![Dataset Shape](images/Image5.png)
+![Dataset Shape](images/Image3.png)
 
 Dataset dimensions:
 
@@ -217,7 +217,7 @@ Dataset dimensions:
 
 ## 📷 Fraudulent vs Real Job Postings
 
-![Fraud Ratio](images/Image6.png)
+![Fraud Ratio](images/Image4.png)
 
 ### Key Insight:
 - Approximately 95% postings are real
@@ -244,7 +244,7 @@ This indicates:
 
 ## 📷 Missing Value Analysis
 
-![Null Values](images/Image8.png)
+![Null Values](images/Image7.png)
 
 Several columns contained null values.
 
@@ -258,7 +258,7 @@ Major missing columns:
 
 ## 📷 Missing Value Percentage
 
-![Missing Percentage](images/Image9.png)
+![Missing Percentage](images/Image7.png)
 
 Calculated percentage of missing values using:
 
@@ -270,7 +270,7 @@ Calculated percentage of missing values using:
 
 ## 📷 Handling Missing Values
 
-![Handling Null Values](images/Image10.png)
+![Handling Null Values](images/Image8.png)
 
 Missing text values replaced with:
 
@@ -286,7 +286,7 @@ Missing text values replaced with:
 
 ## 📷 Merging Text Columns
 
-![Feature Engineering](images/Image11.png)
+![Feature Engineering](images/Image9.png)
 
 Combined important textual columns into one feature:
 
@@ -306,7 +306,7 @@ Purpose:
 
 ## 📷 Regex Text Cleaning
 
-![Regex Cleaning](images/Image12.png)
+![Regex Cleaning](images/Image10.png)
 
 Used Regular Expressions to:
 - Remove special characters
@@ -321,7 +321,7 @@ re.sub('[^a-zA-Z\s]', '', x)
 
 ## 📷 Installing NLTK
 
-![NLTK](images/Image13.png)
+![NLTK](images/Image11.png)
 
 NLTK used for:
 - Tokenization
@@ -332,7 +332,7 @@ NLTK used for:
 
 ## 📷 Stopwords Removal & Tokenization
 
-![Tokenization](images/Image14.png)
+![Tokenization](images/Image12.png)
 
 Performed:
 - Tokenization
@@ -347,7 +347,7 @@ Performed:
 
 ## 📷 TF-IDF Transformation
 
-![TF-IDF](images/Image15.png)
+![TF-IDF](images/Image13.png)
 
 Converted text into numerical vectors using:
 
@@ -369,7 +369,7 @@ TF-IDF helps machine learning models understand:
 
 ## 📷 Splitting Dataset
 
-![Train Test Split](images/Image16.png)
+![Train Test Split](images/Image13.png)
 
 Dataset split:
 - 80% Training
@@ -389,7 +389,7 @@ train_test_split(test_size=0.2)
 
 ## 📷 Logistic Regression Training
 
-![Logistic Regression](images/Image17.png)
+![Logistic Regression](images/Image14.png)
 
 ### Purpose:
 Binary classification model for fraud prediction.
@@ -405,7 +405,7 @@ Binary classification model for fraud prediction.
 
 ## 📷 Naive Bayes Training
 
-![Naive Bayes](images/Image18.png)
+![Naive Bayes](images/Image16.png)
 
 ### Purpose:
 Probabilistic NLP classification algorithm.
@@ -420,7 +420,7 @@ Probabilistic NLP classification algorithm.
 
 ## 📷 Random Forest Training
 
-![Random Forest](images/Image19.png)
+![Random Forest](images/Image18.png)
 
 ### Purpose:
 Ensemble learning model using decision trees.
